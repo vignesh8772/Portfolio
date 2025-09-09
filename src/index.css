@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-headercolor {
+  background-color: #1f1e52;
+}
+
+.bg-maincolor {
+  background-color: #5450e2;
+} 
