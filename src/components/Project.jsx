@@ -1,10 +1,17 @@
 import ChatBOt from "../assets/chat_bot.png";
 import Quiz from "../assets/Quiz.png";
-import clgProject from "../assets/college project.png";
+import ecommerce from "../assets/654768465787.jpg";
 
 export default function Project() {
   const detail = {
-    project:[{
+    project:[
+      {
+      projectimg: ecommerce,
+      descriptio: " Built a MERN stack e-commerce platform supporting product display, detailed product views, add-to-cart functionality, and order placement.Implemented dynamic stock management that automatically decreases based on orders and integrated toastifynotifications for better user interaction. Implemented dynamic cart summary with per-product quantity, price calculation, and total order value display.",
+      link: "https://github.com/vignesh8772/Mini-E-commerce",
+      id:crypto.randomUUID(),
+    },
+    {
       projectimg: ChatBOt,
       descriptio: "A chatbot interface built with React and TailwindCSS.",
       link: "https://github.com/vignesh8772/React-Chatbot-UI",
@@ -17,12 +24,7 @@ export default function Project() {
       link: "https://github.com/vignesh8772/Quiz-App",
       id:crypto.randomUUID(),
     },
-    {
-      projectimg: clgProject,
-      descriptio: "The College Bus Tracking System is an IoT-based solutiondesigned to provide real-time tracking of college buses using and IoT modules.",
-      link: "https://github.com/vignesh8772/COLLEGE_BUS_TRACKING_SYSTEM",
-      id:crypto.randomUUID(),
-    },]};
+    ]};
 
   return (
     <>

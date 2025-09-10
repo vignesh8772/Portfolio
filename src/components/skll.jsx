@@ -6,16 +6,17 @@ import db from "../assets/skillIMG/db.png";
 import tailwind from "../assets/skillIMG/tailwind.png";
 import github from "../assets/skillIMG/github.png";
 import git from "../assets/skillIMG/git.png";
+import node from "../assets/skillIMG/Express.svg";
+import express from "../assets/skillIMG/Node.js.svg";
 
 export default function Skill() {
   return (
-    // <div className="flex  flex-row  justify-evenly w-15 cursor-pointer  ">
     <>
       <div className="flex flex-wrap justify-start gap-4 p-4 cursor-pointer">
         <img
           src={html}
           alt="HTML"
-          className="h-12 w-12 hover:scale-110 transition-transform"
+          className="h-12 w-12  hover:scale-110 transition-transform "
         />
         <img
           src={css}
@@ -30,6 +31,16 @@ export default function Skill() {
         <img
           src={react}
           alt="React"
+          className="h-12 w-12 hover:scale-110 transition-transform"
+        />
+        <img
+          src={node}
+          alt="node"
+          className="h-12 w-12 hover:scale-110 transition-transform"
+        />
+        <img
+          src={express}
+          alt="express"
           className="h-12 w-12 hover:scale-110 transition-transform"
         />
         <img
