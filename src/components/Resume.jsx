@@ -1,5 +1,5 @@
 import ResumeImg from "../assets/resume.jpg";
-import file from"../assets/VigneshAResume.pdf"
+import file from"../assets/RESUME_.pdf"
 import { ToastContainer, toast } from 'react-toastify';
 
 function Resume() {
