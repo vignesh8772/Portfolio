@@ -1,12 +1,36 @@
-# React + Vite
+# Vignesh — Web Security Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dark, terminal-inspired personal portfolio built with React and Vite. The content presents an early-career learning journey in web application security, bug bounty methodology, Linux, Python and reconnaissance workflows.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Production build
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run build
+npm run preview
+```
+
+## Quality checks
+
+```bash
+npm run lint
+npm run build
+```
+
+## Deployment
+
+The project is configured for Vercel. Import the GitHub repository, keep the framework preset as **Vite**, and use the default build command (`npm run build`) and output directory (`dist`). The `vercel.json` file adds baseline browser security headers.
+
+## Before publishing
+
+- Verify the GitHub and LinkedIn URLs in `src/App.jsx`.
+- Add only completed projects with real source-code links and screenshots.
+- Replace the learning-status labels as your practical experience grows.
+- Add a current cybersecurity-focused resume only when it is ready to share.
+- Keep all security testing within authorized scope.
